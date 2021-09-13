@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Credit Card Processing</title>
+  </head>
+  <body>
+    <h1>Credit Card Processing</h1>
+
+    <div class="modal">
+      <div class="modal-content" class="check">
+        <ul>
+          <li></li>
+        </ul>
+        <span class="close-btn">&times;</span>
+        <p id="result">this is the text inside the modal</p>
+      </div>
+    </div>
+
+    <label for="amount">Amount</label><br />
+    <input type="text" id="amount" name="amount" /><br />
+    <label for="ccnum">Credit Card Number</label><br />
+    <input type="text" id="cc_num" name="ccnum" /><br />
+    <label for="lname">Exp Date</label><br />
+    <input type="text" id="exp_date" name="expdate" />
+    <button id="process">Process</button>
+
+    <script src="script.js"></script>
+    <link href="style.css" rel="stylesheet" />
+  </body>
+</html>
